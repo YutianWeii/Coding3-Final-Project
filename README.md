@@ -75,6 +75,7 @@ Vid2vid model:
 https://github.com/NVIDIA/vid2vid
 
 
+
 ### 3. Production process
 Firstly, I used a short jellyfish video that I shot before to test this idea. It is necessary to split the video into each frame image and then export it to a 'frames' folder. As the size of the input images does not match the model settings, I combined two adjacent pictures into one 512 * 256 size picture and imported it into the dataset folder. I planned to change the picture to a 1920 * 1080 size after the final training and the generation of new pictures, and then combine them into a video. I generated this step with the help of ChatGPT (the code can be viewed in the "video—frames—dataset.ipynb" file).
 
@@ -82,7 +83,22 @@ Then I opened the pix2pix sample code in Colab and changed the code to import th
 
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2018.19.50.png)
 
-![image]()
+While running the code, I realized that I had forgotten to import the dataset into different training, validation, and test sets. So I returned to the "video—frames—dataset.ipynb" file, and added code to import the images from the dataset into three new folders, with 70% of the images used as the training set, 15% as the validation set, and 15% as the test set. (The code was generated with the help of ChatGPT and can be viewed in the "video—frames—dataset.ipynb" file)
+
+I ran the pix2pix code again, and the model training was successful, and I was able to generate images.
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2020.08.04.png)
+
+Then I started to import the last frame of the image using the code and generate new images based on the model. (The code was generated with the help of ChatGPT) But the images generated in this step were all black. I used plt.imshow(input_image) plt.show() and found out that the problem was not with the input image. I guessed it might be a problem with the model. But even after retraining the model, I could still only generate completely black pictures. 
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2020.08.18.png)
+
+I consulted with Jasper, and after he made several guesses, he found out that there are a lot of Batchormalization layers in my model. I needed to add "training = True" in the code (the correct code should be output_image = generator(input_image, training = True)) to successfully generate pictures.
+About the Batchormalization: https://stackoverflow.com/questions/50047653/set-training-false-of-tf-layers-batch-normalization-when-training-will-get-a/50071072#50071072
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2020.17.49.png)
+
+
 ![image]()
 
 

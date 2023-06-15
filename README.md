@@ -148,7 +148,7 @@ The final video was actually generated based on the training results of every 10
 
 
 ## Presentation
-🎬 Video 1 (includes the complete animation short and AI-predicted video, 15 min long): https://youtu.be/cqxWX_Ep7ag
+🎬 Video 1 (Complete version includes the complete animation short and AI-predicted video, 15 min long): https://youtu.be/cqxWX_Ep7ag
 
 🎬 Video 2 (comparison version, 1:35 long): https://youtu.be/UYeXxhKbfEg
 

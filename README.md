@@ -174,23 +174,25 @@ In conclusion, this was an interesting AI experiment. With technology, I can rea
 
 
 ## Reference
-1. Fingerplay https://twitter.com/quasimondo/status/982711735001010176
+1. ML Art https://mlart.co/?page=1
+
+2. Fingerplay https://twitter.com/quasimondo/status/982711735001010176
   
-2. Learning to see: Gloomy Sunday https://www.memo.tv/works/gloomy-sunday/
+3. Learning to see: Gloomy Sunday https://www.memo.tv/works/gloomy-sunday/
 
-3. Pix2pix https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
+4. Pix2pix https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
 
-4. Jonathan Fly's work https://twitter.com/jonathanfly/status/1185843103271444480
+5. Jonathan Fly's work https://twitter.com/jonathanfly/status/1185843103271444480
 
-5. Damien Henry's work https://www.aiartonline.com/community/damien-henry/
+6. Damien Henry's work https://www.aiartonline.com/community/damien-henry/
 
-6. Pix2pix https://phillipi.github.io/pix2pix/
+7. Pix2pix https://phillipi.github.io/pix2pix/
 
-7. Vid2vid https://github.com/NVIDIA/vid2vid
+8. Vid2vid https://github.com/NVIDIA/vid2vid
 
-8. About the Batchormalization: https://stackoverflow.com/questions/50047653/set-training-false-of-tf-layers-batch-normalization-when-training-will-get-a/50071072#50071072
+9. About the Batchormalization: https://stackoverflow.com/questions/50047653/set-training-false-of-tf-layers-batch-normalization-when-training-will-get-a/50071072#50071072
 
-9. Ice Merchants https://www.bilibili.com/video/BV1j44y1o7eY/?spm_id_from=333.337.search-card.all.click&vd_source=4e11ecf8ce84e2c57ec01266377e6b4f
+10. Ice Merchants https://www.bilibili.com/video/BV1j44y1o7eY/?spm_id_from=333.337.search-card.all.click&vd_source=4e11ecf8ce84e2c57ec01266377e6b4f
 
 
 

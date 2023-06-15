@@ -8,6 +8,8 @@ This work utilizes the pix2pix algorithm to predict the 90 seconds following the
 
 ### 🎬 Video 2 (comparison version, 1:36 long):
 
+If you want to run the code, you can refer to my dataset: https://drive.google.com/drive/folders/1jkPYokwFpiEPy47lnuzHcLx9-FsLf0Ei?usp=sharing
+
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2016.28.50.png)
 
 

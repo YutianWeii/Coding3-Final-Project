@@ -190,9 +190,11 @@ In conclusion, this was an interesting AI experiment. With technology, I can rea
 
 8. Vid2vid https://github.com/NVIDIA/vid2vid
 
-9. About the Batchormalization: https://stackoverflow.com/questions/50047653/set-training-false-of-tf-layers-batch-normalization-when-training-will-get-a/50071072#50071072
+9. ChatGPT https://openai.com/blog/chatgpt
 
-10. Ice Merchants https://www.bilibili.com/video/BV1j44y1o7eY/?spm_id_from=333.337.search-card.all.click&vd_source=4e11ecf8ce84e2c57ec01266377e6b4f
+10. About the Batchormalization: https://stackoverflow.com/questions/50047653/set-training-false-of-tf-layers-batch-normalization-when-training-will-get-a/50071072#50071072
+
+11. Ice Merchants https://www.bilibili.com/video/BV1j44y1o7eY/?spm_id_from=333.337.search-card.all.click&vd_source=4e11ecf8ce84e2c57ec01266377e6b4f
 
 
 

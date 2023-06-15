@@ -105,7 +105,7 @@ About the Batchormalization: https://stackoverflow.com/questions/50047653/set-tr
 
 Then, with the help of ChatGPT, I completed the code for generating images in a loop and composing a video. (The code can be viewed in the last part of the "pix2pix-Yutian.jpynb" file, and it is recommended to run it in Colab)
 
-Once it was confirmed that the video could be generated, I began to formally produce using "Ice Merchant".
+Once I confirmed that I could generate videos, I began the formal production. I originally wanted to use a full-length movie as the dataset, but due to the high number of frames and slow training speed, I changed to using an animated short film as the dataset. I chose the animated short film "Ice Merchants."
 
 First, the video needed to be split into every frame, resulting in 20,960 images.
 

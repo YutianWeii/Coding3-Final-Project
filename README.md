@@ -143,7 +143,7 @@ Finally, I found that the reason why the generated images were all similar was t
 
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.38.25.png)
 
-The final video was actually generated based on the training results of every 100 frames, so I should slow down the video speed. The final video is approximately 600 frames at a speed of 90 seconds.
+The final video was actually generated based on the training results of every 100 frames, so I should slow down the video speed. The final video is approximately 600 images at a speed of 90 seconds.
 
 
 

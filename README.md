@@ -120,6 +120,7 @@ I started to run the pix2pix code to train the model, and I was able to generate
 However, because the difference between each frame and the next frame is very small, the final 1800 generated images are almost identical to the input images, and there isn't much change in the video. So I planned to change the dataset, extract one frame every 100 frames from the original video, roughly extracting 210 frames to train the model. But the final generated video still didn't change much.
 
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.27.10.png)
+
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.32.55.png)
 
 I changed the input image to one frame from the beginning of the video, but the result was still that each frame was nearly the same.

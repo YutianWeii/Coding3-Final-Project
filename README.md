@@ -144,11 +144,19 @@ The final video was actually generated based on the training results of every 10
 
 
 ## Presentation
+🎬 Video 1 URL (includes the complete animation short and AI-predicted video, 15 min long):
 
+🎬 Video 2 URL (comparison version, 1:36 long):
 
-![image]()
-![image]()
-![image]()
+Several screenshots from the AI-predicted video:
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.41.53.png)
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.42.00.png)
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.42.13.png)
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.42.21.png)
 
 
 ## Conclusion
@@ -160,11 +168,25 @@ When we create with AI, how should we balance art and computational rationality?
 
 In conclusion, this was an interesting AI experiment. With technology, I can realize some bold ideas and contemplate their intrinsic relationships. I enjoyed the process, and I hope you did too.
 
+
 ## Reference
-1.
-2.
-3.
-4.
-5.
+1. Fingerplay https://twitter.com/quasimondo/status/982711735001010176
+  
+2. Learning to see: Gloomy Sunday https://www.memo.tv/works/gloomy-sunday/
+
+3. Pix2pix https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
+
+4. Jonathan Fly's work https://twitter.com/jonathanfly/status/1185843103271444480
+
+5. Damien Henry's work https://www.aiartonline.com/community/damien-henry/
+
+6. Pix2pix https://phillipi.github.io/pix2pix/
+
+7. Vid2vid https://github.com/NVIDIA/vid2vid
+
+8. About the Batchormalization: https://stackoverflow.com/questions/50047653/set-training-false-of-tf-layers-batch-normalization-when-training-will-get-a/50071072#50071072
+
+9. Ice Merchants https://www.bilibili.com/video/BV1j44y1o7eY/?spm_id_from=333.337.search-card.all.click&vd_source=4e11ecf8ce84e2c57ec01266377e6b4f
+
 
 

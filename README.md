@@ -97,7 +97,7 @@ Then I started to import the last frame of the image using the code and generate
 
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2020.08.18.png)
 
-I consulted with Jasper, and after he made several guesses, he found out that there are a lot of Batchormalization layers in my model. I needed to add "training = True" in the code (the correct code should be output_image = generator(input_image, training = True)) to successfully generate pictures.
+I consulted with Jasper, and he found out that there are a lot of Batchormalization layers in my model. I needed to add "training = True" in the code (the correct code should be output_image = generator(input_image, training = True)) to successfully generate pictures.
 
 About the Batchormalization: https://stackoverflow.com/questions/50047653/set-training-false-of-tf-layers-batch-normalization-when-training-will-get-a/50071072#50071072
 

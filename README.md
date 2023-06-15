@@ -61,13 +61,27 @@ At this point, I had determined the concept for my final project.
 
 
 ### 2. Technical reference
+I looked up information about the pix2pix model and tried running the sample code in TensorFlow. The original dataset of the pix2pix sample code is images of size 512 * 256, containing one 256 * 256 input image and one 256 * 256 target image. When preparing my dataset, I also need to adjust the pictures to this format.
 
+Pix2pix model:
 
+https://phillipi.github.io/pix2pix/
+
+https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
+
+I also discovered the vid2vid model, which I can try in the future.
+
+Vid2vid model:
+https://github.com/NVIDIA/vid2vid
 
 
 ### 3. Production process
+Firstly, I used a short jellyfish video that I shot before to test this idea. It is necessary to split the video into each frame image and then export it to a 'frames' folder. As the size of the input images does not match the model settings, I combined two adjacent pictures into one 512 * 256 size picture and imported it into the dataset folder. I planned to change the picture to a 1920 * 1080 size after the final training and the generation of new pictures, and then combine them into a video. I generated this step with the help of ChatGPT (the code can be viewed in the "video—frames—dataset.ipynb" file).
 
-![image]()
+Then I opened the pix2pix sample code in Colab and changed the code to import the dataset. Since Colab requires uploading a local dataset to import, I uploaded the dataset folder to Google Drive and then imported the files from Google Drive. (Code was generated with the help of ChatGPT and showed in the following image. The code can be viewed in the "pix2pix-Yutian.jpynb" file, and it is recommended to run it in Colab).
+
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2018.19.50.png)
+
 ![image]()
 ![image]()
 

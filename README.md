@@ -47,10 +47,11 @@ In the tenth week, I discovered these two works that used the pix2pix model to p
 
 Jonathan Fly: Start with a video clip of a roller coaster and then predict the next frame with a pix2pix model, feeding the previous frame
 https://twitter.com/jonathanfly/status/1185843103271444480
-![image]()
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2017.55.24.png)
+
 Damien Henry: Pix2pix repeatedly takes the generated output as the new input to create a one-hour long video of train windows
 https://www.aiartonline.com/community/damien-henry/
-![image]()
+![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2017.55.12.png)
 
 So, I planned to use AI to predict one minute after a movie ends. I plan to take each frame of a movie as a dataset and use machine learning to understand the patterns of change between frames. Finally, the last frame is used as the input image to generate the next frame after the movie ends. Then the next frame is used as the input image to generate the next frame, and after repeating this many times, all the generated images are combined into a video.
 At this point, I had determined the concept for my final project.

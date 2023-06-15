@@ -6,7 +6,7 @@ This work utilizes the pix2pix algorithm to predict the 90 seconds following the
 
 ### 🎬 Video 1 (Complete version includes the complete animation short and AI-predicted video, 15 min long): https://youtu.be/cqxWX_Ep7ag
 
-### 🎬 Video 2 (Comparison version, 1:36 long): https://youtu.be/UYeXxhKbfEg
+### 🎬 Video 2 (Comparison version, 1:35 long): https://youtu.be/UYeXxhKbfEg
 
 If you want to run the code, you can refer to my dataset: https://drive.google.com/drive/folders/1jkPYokwFpiEPy47lnuzHcLx9-FsLf0Ei?usp=sharing
 
@@ -150,7 +150,7 @@ The final video was actually generated based on the training results of every 10
 ## Presentation
 🎬 Video 1 (includes the complete animation short and AI-predicted video, 15 min long): https://youtu.be/cqxWX_Ep7ag
 
-🎬 Video 2 (comparison version, 1:36 long): https://youtu.be/UYeXxhKbfEg
+🎬 Video 2 (comparison version, 1:35 long): https://youtu.be/UYeXxhKbfEg
 
 Several screenshots from the AI-predicted video:
 

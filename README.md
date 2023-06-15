@@ -11,7 +11,19 @@ This work utilizes the pix2pix algorithm to predict the 90 seconds following the
 
 ## Process
 ### 1. Iteration of ideas
-In Week8
+In Week8, I chose the Pix2Pix model of the GAN algorithm, intending to import satellite image datasets (or other datasets), and then implement a real-time transformation of gestures into satellite map images (or other images).
+The final effect can be referred to the following two works:
+https://twitter.com/quasimondo/status/982711735001010176
+https://www.memo.tv/works/gloomy-sunday/
+
+Code references:
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
+
+Dataset references:
+Satellite Image Classification https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
+or
+Micro-Organism Image Classification https://www.kaggle.com/datasets/mdwaquarazam/microorganism-image-classification
 
 
 ### 2. Technical reference

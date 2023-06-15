@@ -4,7 +4,9 @@
 ### "90 Seconds After Falling into a Pile of Hats” 🎩
 This work utilizes the pix2pix algorithm to predict the 90 seconds following the end of the animated short film “Ice Merchants". Every 100 frames of the video were extracted as a frame for the dataset to train the model. The final frame of the image is used as the input image, with the output image serving as the input for the next frame. After iterations, I obtain the 90 seconds after the story ends.
 
-### 🎬 Video URL: 
+### 🎬 Video 1 (includes the complete animation short and AI-predicted video, 15 min long):
+
+### 🎬 Video 2 (comparison version, 1:36 long):
 
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2016.28.50.png)
 
@@ -144,9 +146,9 @@ The final video was actually generated based on the training results of every 10
 
 
 ## Presentation
-🎬 Video 1 URL (includes the complete animation short and AI-predicted video, 15 min long):
+🎬 Video 1 (includes the complete animation short and AI-predicted video, 15 min long):
 
-🎬 Video 2 URL (comparison version, 1:36 long):
+🎬 Video 2 (comparison version, 1:36 long):
 
 Several screenshots from the AI-predicted video:
 

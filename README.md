@@ -163,7 +163,7 @@ Several screenshots from the AI-predicted video:
 ![image](https://github.com/YutianWeii/jpg/blob/main/%E6%88%AA%E5%B1%8F2023-06-15%2021.42.21.png)
 
 
-## Conclusion
+## Evaluation and Conclusion
 The final result is not very satisfying. Although the colors and vague shapes align with the ambiance of the original video, there are no clear lines or objects generated. I think this might be due to the complexity of the original video; the model could not learn and predict an unseen story very well. The two works I referenced had static camera positions and simple scenes (a train and a roller coaster), which made it easier for the machine to learn and generate more realistic images.
 
 I started to think about the relationship between concept and final effect. I could have chosen a video with a simpler scene, but that would run counter to my concept. I wanted to input this short film and only this short film. Once the training was completed, the AI's feedback seemed real and somewhat objective to me, free from bias. Given the current state of pix2pix technology, this is what the 90 seconds after the end of this short film looks like, which makes me think that perhaps the final effect isn't so important.

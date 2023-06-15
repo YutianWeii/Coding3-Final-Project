@@ -19,11 +19,13 @@ https://twitter.com/quasimondo/status/982711735001010176
 https://www.memo.tv/works/gloomy-sunday/
 
 Code references:
+
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 
 https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
 
 Dataset references:
+
 Satellite Image Classification https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
 or
 Micro-Organism Image Classification https://www.kaggle.com/datasets/mdwaquarazam/microorganism-image-classification
@@ -32,6 +34,7 @@ Micro-Organism Image Classification https://www.kaggle.com/datasets/mdwaquarazam
 In week 9, I changed part of the project idea. I still want to use the pix2pix algorithm, but I plan to change the generated content. Since incomplete datasets will bias AI algorithms, I plan to use a dataset that only contains male faces, and the output part will all be male faces, reflecting situations where women are overlooked. The input images will be images similar to the shape of a human face, generating corresponding male face images.
 
 Code references:
+
 Pix2Pix tool: https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
 
 StyleGAN tool recommended by Jasper (for converting target images to the style of pix2pix model input images): https://github.com/jasper-zheng/StyleGAN-Canvas
@@ -44,9 +47,10 @@ In the tenth week, I discovered these two works that used the pix2pix model to p
 
 Jonathan Fly: Start with a video clip of a roller coaster and then predict the next frame with a pix2pix model, feeding the previous frame
 https://twitter.com/jonathanfly/status/1185843103271444480
-
+![image]()
 Damien Henry: Pix2pix repeatedly takes the generated output as the new input to create a one-hour long video of train windows
 https://www.aiartonline.com/community/damien-henry/
+![image]()
 
 So, I planned to use AI to predict one minute after a movie ends. I plan to take each frame of a movie as a dataset and use machine learning to understand the patterns of change between frames. Finally, the last frame is used as the input image to generate the next frame after the movie ends. Then the next frame is used as the input image to generate the next frame, and after repeating this many times, all the generated images are combined into a video.
 At this point, I had determined the concept for my final project.

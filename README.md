@@ -8,20 +8,20 @@ This work utilizes the pix2pix algorithm to predict the 90 seconds following the
 
 
 ## Process
-### 1.
+### 1. Iteration of ideas
+In Week8
+
+
+### 2. Technical reference
 
 
 
-### 2.
 
+### 3. Production process
 
-
-
-### 3.
-
-
-
-### 4.
+![image]()
+![image]()
+![image]()
 
 
 ## Presentation

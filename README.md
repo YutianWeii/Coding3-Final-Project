@@ -11,7 +11,7 @@ This work utilizes the pix2pix algorithm to predict the 90 seconds following the
 
 ## Process
 ### 1. Iteration of ideas
-In Week8, I chose the Pix2Pix model of the GAN algorithm, intending to import satellite image datasets (or other datasets), and then implement a real-time transformation of gestures into satellite map images (or other images).
+In Week 8, I chose the Pix2Pix model of the GAN algorithm, intending to import satellite image datasets (or other datasets), and then implement a real-time transformation of gestures into satellite map images (or other images).
 The final effect can be referred to the following two works:
 https://twitter.com/quasimondo/status/982711735001010176
 
@@ -26,6 +26,19 @@ Dataset references:
 Satellite Image Classification https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification
 or
 Micro-Organism Image Classification https://www.kaggle.com/datasets/mdwaquarazam/microorganism-image-classification
+
+
+In week 9, I changed part of the project idea. I still want to use the pix2pix algorithm, but I plan to change the generated content. Since incomplete datasets will bias AI algorithms, I plan to use a dataset that only contains male faces, and the output part will all be male faces, reflecting situations where women are overlooked. The input images will be images similar to the shape of a human face, generating corresponding male face images.
+
+Code references:
+Pix2Pix tool: https://www.tensorflow.org/tutorials/generative/pix2pix?hl=zh-cn
+StyleGAN tool recommended by Jasper (for converting target images to the style of pix2pix model input images): https://github.com/jasper-zheng/StyleGAN-Canvas
+
+At that time, I didn't find a suitable male face dataset. I plan to look for it again. If not, I plan to use gender detection code to select the male part as my dataset (https://www.kaggle.com/code/bmarcos/image-recognition-gender-detection-inceptionv3). Also, the correspondence relationship of the pix2pix algorithm dataset needs to be tested. If I can't achieve real-time interactive effects, I consider making the input and output images into GIF images.
+
+
+
+
 
 
 ### 2. Technical reference
